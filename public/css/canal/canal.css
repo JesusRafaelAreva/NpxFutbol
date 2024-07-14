@@ -1,0 +1,90 @@
+.publicidad-mobile {
+    width: 100%;
+    /* Ajusta al ancho del contenedor padre */
+    height: 0;
+    /* Inicialmente no tiene altura */
+    padding-top: 18.25%;
+    /* Relación de aspecto de 16:9 */
+    position: relative;
+    /* Posicionamiento para la imagen interna */
+}
+
+.publicidad-mobile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (min-width: 769px) {
+    .publicidad-mobile {
+        display: none;
+    }
+}
+
+.reproductor-container {
+
+    display: flex;
+    height: auto;
+}
+
+.reproductor {
+    background-color: #111827;
+    padding: .5rem;
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: fit-content
+}
+
+.new-container {
+    margin: 0 5vw;
+}
+
+.publicidad-derecha {
+    width: 20%;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-left: 2rem;
+}
+
+.publicidad-derecha img {
+    width: inherit;
+}
+.text_container{
+    width: 72%;
+    margin: 0 5vw;
+}
+.text_container ul{
+    list-style: none;
+    padding: 0;
+}
+footer{
+    margin: 0 5vw;
+    width: 80%;
+    text-align-last: center;
+
+}
+@media screen and (max-width: 769px) {
+    .publicidad-derecha {
+        display: none;
+    }
+
+    .reproductor {
+        width: 100%;
+    }
+    .text_container{
+        text-align: -webkit-center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text_container ul{
+        width: 80%;
+        list-style: none;
+        padding: 0;
+    }
+}
+

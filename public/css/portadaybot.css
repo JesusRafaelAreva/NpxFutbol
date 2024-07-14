@@ -1,0 +1,47 @@
+html{font-size:14px}@media(min-width:768px){html{font-size:16px}}.container{max-width:960px}.pricing-header{max-width:914px}.card-deck .card{min-width:200px}.border-top{border-top:1px solid #e5e5e5}.border-bottom{border-bottom:1px solid #e5e5e5}.box-shadow{box-shadow:0 .25rem .75rem rgba(0,0,0,.05)}.lazyLoad{width:100%;opacity:0}.visible{transition:opacity 1000ms ease;opacity:1}#boton {text-align: left;}#boton p {
+    margin-bottom: 10px;}#boton a.btn-fl {margin-right: 10px;margin-bottom: 10px;}#boton button.btn-fl {margin-top: 10px;}
+    
+  #telegram-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #0088cc;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 30px; /* Ajusta esto para cambiar la curvatura */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#telegram-button:hover {
+  background-color: #005f7f; /* Cambiar para efecto hover */
+}
+
+#telegram-button::before {
+  content: '';
+  display: inline-block;
+  background: url('https://images.vexels.com/media/users/3/137414/isolated/preview/3f7486417ddd88060a1818d44b6f3728-logotipo-del-icono-de-telegram.png') no-repeat center center;
+  background-size: contain;
+  width: 24px; /* Ajusta según el tamaño de tu ícono */
+  height: 24px; /* Ajusta según el tamaño de tu ícono */
+  margin-right: 8px;
+}
+
+
+#close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 8px;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+
